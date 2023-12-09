@@ -1,0 +1,335 @@
+body{
+                 
+
+    background-color: #040C18;
+}
+.navbar{
+    margin: 0rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-elements a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-family: 'Manrope';
+    margin: 0rem 2rem;
+}
+.sign-in{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in a{
+    text-decoration: none;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-family: 'Manrope';
+    margin: 0rem 1rem;
+}
+.sign-in button{
+    background-color: #FF4820;
+    color:#FFFFFF;
+    font-weight: 500;
+    font-family: 'Manrope';
+    border:1px solid black;
+    border-radius: 5px;
+    height:2.5rem;
+    width: 7rem;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 3rem;
+
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0rem 2rem;
+}
+.text1 p{
+    background-image: linear-gradient(rgb(174,103,250,100%),rgb(244,152,103,100%));
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    font-family: 'Manrope';
+    font-weight:900;
+    font-size: 3.2rem;
+}
+.text2 p{
+    color: #81AFDD;
+    font-family: 'Manrope';
+    font-size: 1rem;
+    font-weight:300;
+    padding-right: 9rem;
+}
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.email input{
+    background-color: #052D56;
+    height: 3.5rem;
+    width: 19.5rem;
+    border:1px solid black;
+    color: #3D6184;
+    font-family: 'Manrope';
+    font-weight:400;
+}
+.email input::placeholder{
+    color: #3D6184;
+    font-family: 'Manrope';
+    font-weight:400;
+    transform:translateX(10%);
+    
+}
+.email button{
+    background-color: #FF4820;
+    border:1px solid black;
+    height: 3.7rem;
+    width: 7rem;
+    font-family: 'Manrope';
+    color: #FFFFFF;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.people-right p{
+    font-family: 'Manrope';
+    color: #FFFFFF;
+    font-weight: 500;
+    margin: 0rem 0.5rem;
+}
+.clients{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3rem 0rem;
+
+}
+.clients img{
+    margin:0rem 2rem;
+}
+
+.whatis{
+    display:flex;
+    flex-direction:column;
+    background-color: hsl(210, 91%, 17%);
+    margin: 5rem;
+    padding: 3rem;
+}
+.gpt{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin:2rem 0rem;
+}
+.head{
+    display:flex;
+    flex-direction:column;
+}
+.head span{
+    border-radius: 0.2rem;
+    height: 0.3rem;
+    width: 2.5rem;
+    background-image: linear-gradient(to right, rgb(174,103,250,100%),rgb(244,152,103,100%));
+}
+.head h2{
+    font-family: 'Manrope';
+    color: #FFFFFF;
+    font-weight:800;
+    width: 12rem;
+    
+}
+.content p{
+    color: #81AFDD;
+    font-family: 'Manrope';
+    font-weight:400;
+
+}
+.gpt p{
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+.explains{
+    display: flex;
+    flex-direction: row;
+    margin:2rem 0rem;
+
+}
+.possibilities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;justify-content: space-between;
+    margin:2rem 0rem;
+
+}
+.pos-left p{
+    background-image: linear-gradient(rgb(174,103,250,100%),rgb(244,152,103,100%));
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    font-family: 'Manrope';
+    font-weight:900;
+    font-size: 2.2rem;
+    width: 30rem;
+} 
+.pos-right a{
+    text-decoration: none;
+    color:#FF8A71;
+}
+.feature{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    justify-content: space-around;
+}
+.feature-left h2{
+    background-image: linear-gradient(rgb(174,103,250,100%),rgb(244,152,103,100%));
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    font-family: 'Manrope';
+    font-weight:900;
+    font-size: 3rem;
+    width:59%
+}
+.feature-left p{
+    font-family: 'Manrope';
+    color:#FF8A71;
+}
+.fea-element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fea-element .head{
+    margin: 2rem;
+}
+.fea-element p{
+    width: 100%;
+}
+
+.footer{
+    padding:5rem;
+    background-color: #031B34;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.footer .text p{
+    background-image: linear-gradient(to right,rgb(174,103,250,100%),rgb(244,152,103,100%));
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    font-family: 'Manrope';
+    font-weight:900;
+    font-size: 3rem;
+    padding: 0rem 5rem;
+    width:60%;
+    margin-left: 12rem;
+    text-align: center;
+}
+.footer .btn button{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: 'Manrope';
+    width:10rem;
+    height:3rem;
+    position: relative;
+    left: 36rem;
+}
+.footer .links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom:5rem ;
+    margin-left: 8rem;
+    margin-right: 0rem;
+    margin-top: 8rem;
+}
+.footer .links .foot-logo,
+.footer .links .link,
+.footer .links .company,
+.footer .links .getintouch{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .links .foot-logo a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size:2rem;
+    margin-top: 0.8rem;
+    font-weight: 800;
+}
+.footer .links .foot-logo p{
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size: 0.8rem;
+    width: 12rem;
+}
+.footer .links .link h3,
+.footer .links .company h3,
+.footer .links .getintouch h3{
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size:1rem;
+}
+
+.footer .links .link a,
+.footer .links .company a,
+.footer .links .getintouch a{
+    text-decoration: none;
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 1rem 0rem;
+}
+.footer .links .getintouch address,
+.footer .links .getintouch p
+{
+    text-decoration: none;
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size: 0.9rem;
+    font-weight: 100;
+    margin: 1rem 0rem;
+}
+.footer .links .getintouch address{
+    width:60%;
+}
+
+.footer .copyright p{
+    color:#ffffff;
+    font-family:'Manrope';
+    font-size: 0.9rem;
+    position: relative;
+    left:33rem;
+}
